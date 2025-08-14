@@ -1,4 +1,4 @@
-# Rize Portal Backend
+# Job Portal Backend
 
 ## Setup
 1. Copy `.env.example` to `.env` and fill values.

@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <nav className="bg-white shadow">
         <div className="container py-3 flex gap-4 items-center">
-          <Link to="/dashboard" className="font-bold">Rize Portal</Link>
+          <Link to="/dashboard" className="font-bold">Job Portal</Link>
           <Link to="/dashboard">Feed & Jobs</Link>
           <Link to="/post-job">Post Job</Link>
           <Link to="/profile">Profile</Link>

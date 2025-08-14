@@ -26,10 +26,10 @@ if (!MONGODB_URI) {
   process.exit(1);
 }
 
-await mongoose.connect(MONGODB_URI, { dbName: "rize_portal" });
+await mongoose.connect(MONGODB_URI, { dbName: "job_portal" });
 
 app.get("/", (req, res) => {
-  res.json({ ok: true, message: "Rize Portal API" });
+  res.json({ ok: true, message: "Job Portal API" });
 });
 
 app.use("/auth", authRoutes);
